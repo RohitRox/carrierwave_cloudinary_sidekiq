@@ -1,0 +1,14 @@
+<%= form_for @project, :html=>{:multipart => true} do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.fields_for :photos do |f_photo| %>
+      <%= f_photo.label :pic %><br />
+      <%= f_photo.file_field :pic %>
+    <% end %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>
