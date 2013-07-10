@@ -5,7 +5,7 @@
   <%= @project.title %>
   <hr />
   <% @project.photos.each do |photo| %>
-    <%= image_tag photo.pic_url %>
+    <%= cl_image_tag photo.pic_url %>
   <% end %>
 </p>
 

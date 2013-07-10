@@ -11,6 +11,7 @@ gem 'redis'
 gem 'sidekiq'
 
 gem 'carrierwave'
+gem 'cloudinary'
 
 gem "nifty-generators"
 
