@@ -14,3 +14,6 @@
 /log/*.log
 /tmp
 /config/cloudinary.yml
+/config/redis.yml
+/config/sidekiq.yml
+/public/uploads

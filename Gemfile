@@ -8,13 +8,15 @@ gem 'rails', '3.2.13'
 gem 'sqlite3'
 
 gem 'redis'
+gem 'sinatra'
 gem 'sidekiq'
+gem 'carrierwave_backgrounder'
 
 gem 'carrierwave'
 gem 'cloudinary'
 
 gem "nifty-generators"
-
+gem 'slim'
 
 group :development do
   gem 'pry'

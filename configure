@@ -1,0 +1,3 @@
+cp config/cloudinary.example.yml config/cloudinary.yml
+cp config/redis.example.yml config/redis.yml
+cp config/sidekiq.example.yml config/sidekiq.yml

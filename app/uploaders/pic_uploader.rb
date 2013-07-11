@@ -3,6 +3,7 @@
 class PicUploader < CarrierWave::Uploader::Base
 
   include Cloudinary::CarrierWave
+  include ::CarrierWave::Backgrounder::Delay
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
