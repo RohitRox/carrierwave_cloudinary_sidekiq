@@ -13,7 +13,17 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
 /config/cloudinary.yml
 /config/redis.yml
 /config/sidekiq.yml
 /public/uploads
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
